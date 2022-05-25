@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="?android:attr/fingerprintAuthDrawable"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_imei"
+            android:icon="@android:drawable/stat_notify_sync"
+            android:title="@string/menu_imei" />
+        <item
+            android:id="@+id/nav_driver"
+            android:icon="?android:attr/actionModeFindDrawable"
+            android:title="@string/menu_driver" />
+    </group>
+</menu>
