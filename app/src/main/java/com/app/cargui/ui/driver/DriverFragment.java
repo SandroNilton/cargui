@@ -26,8 +26,8 @@ public class DriverFragment extends Fragment {
         DriverViewModel driverViewModel = new ViewModelProvider(this).get(DriverViewModel.class);
         binding = FragmentDriverBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
-        final TextView textView = binding.textDriver;
-        driverViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        //final TextView textView = binding.textDriver;
+        //driverViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 

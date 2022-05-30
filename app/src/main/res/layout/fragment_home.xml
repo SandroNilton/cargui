@@ -8,17 +8,41 @@
     tools:context=".ui.home.HomeFragment">
 
     <TextView
-        android:id="@+id/text_home"
-        android:layout_width="match_parent"
+        android:id="@+id/textView3"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginTop="76dp"
+        android:text="Brindamos Servicios De Distribución Logistica"
         android:textAlignment="center"
         android:textColor="@color/crg_brow"
-        android:textSize="20sp"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Somos CARGUI, una empresa haciendo logística inteligente para otros. Implementamos soluciones de última milla a medida basada en la calidad de la entrega y las mejores soluciones tecnológicas del sector."
+        android:textAlignment="center"
+        android:textColor="@color/crg_brow"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="367dp"
+        android:layout_height="258dp"
+        android:src="@mipmap/moto"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.316" />
 </androidx.constraintlayout.widget.ConstraintLayout>
